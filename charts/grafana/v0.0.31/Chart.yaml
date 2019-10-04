@@ -1,14 +1,11 @@
-description: Grafana instance for kube-prometheus
+description: Medidor de Velocidade GestorISP
 engine: gotpl
 maintainers:
-- email: weiwei.inf@gmail.com
-  name: Wei Wei
-- email: vglafirov@gmail.com
-  name: Vladimir Glafirov
-icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
-name: grafana
+- email: andreluis3205@gmail.com
+  name: Andre Luis C. R.
+icon: https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.icon-icons.com%2Ficons2%2F865%2FPNG%2F512%2FCitycons_meter_icon-icons.com_67924.png&imgrefurl=https%3A%2F%2Ficon-icons.com%2Fpt%2Ficone%2Fmedidor-cidade%2F67924&docid=5RqT8lHeg8Kl9M&tbnid=TTULj9o_9DZpsM%3A&vet=10ahUKEwjYwbe01IPlAhX-FLkGHd7qCcoQMwhQKAAwAA..i&w=512&h=512&bih=576&biw=1366&q=icone%20medidor&ved=0ahUKEwjYwbe01IPlAhX-FLkGHd7qCcoQMwhQKAAwAA&iact=mrc&uact=8
+name: Medidor GISP
 sources:
-- https://github.com/coreos/prometheus-operator
 version: 0.0.31
 appVersion: 5.1.2
 kubeVersion: "^1.8.0-0"
