@@ -11,6 +11,6 @@ steps:
   pull: default
   image: ranchercharts/chart-testing:v2.0.2-rancher2
   commands:
-  - git remote add rancher-charts https://github.com/rancher/charts
+  - git remote add rancher-charts https://github.com/andreluis3205/charts
   - git fetch rancher-charts master
   - ct lint --config test/ct.yaml
