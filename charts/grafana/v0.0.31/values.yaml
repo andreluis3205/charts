@@ -69,7 +69,7 @@ service:
 ## Grafana Docker image
 ##
 image:
-  repository: grafana/grafana
+  repository: andreluis3205/gisp
   tag: 5.0.0
 
 grafanaWatcher:
